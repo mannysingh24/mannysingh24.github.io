@@ -15,4 +15,4 @@ This website was created using HTML/CSS with a small amount of Javascript.
 
 
 # References
-Adrian Hajdin (https://www.youtube.com/c/JavaScriptMastery)
+freeCodeCamp.org (https://www.youtube.com/c/Freecodecamp)
