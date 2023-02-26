@@ -93,6 +93,12 @@ header
     display: none;
 }
 
+.six
+{
+    transform: translateY(0) scale(1);
+    display: none;
+}
+
 .ON
 {
     @keyframes down_scale_animation
@@ -594,6 +600,67 @@ header
     .interest
     {
         .interest-description
+        {
+            p 
+            {
+                line-height: 2rem;
+                padding-bottom: 1rem;
+                color: var(--color2);
+            }
+            h4 
+            {
+                &:hover
+                {
+                    color: var(--secondary);
+                }
+                margin-bottom: 0.7rem;
+                cursor: pointer;
+                transition: var(--transitions);
+                font-size: 1.5rem;
+            }
+            padding: 1.1rem;
+            border-top: 8px solid var(--secondary);
+            margin-top: -7px;
+        }
+        img 
+        {
+            filter: grayscale(100%);
+            border-top-left-radius: 5px;
+            object-fit: cover;
+            height: 300px;
+            border-top-right-radius: 5px;
+            transition: var(--transitions);
+            width: 100%;
+        }
+        &:hover
+        {
+            img 
+            {
+                transform: scale(1.1);
+                box-shadow: 0px 4px 15px rgba(0,0,0,0.8);
+                filter: grayscale(0);
+            }
+            transform: translateY(-5px);
+            transition: var(--transitions);
+            box-shadow: 1px 1px 20px rgba(0,0,0,0.3);
+        }
+        border-radius: 5px;
+        transition: var(--transitions);
+        position: relative;
+        box-shadow: 1px 1px 20px rgba(0,0,0,0.1);
+        background-color: var(--color4);
+    }
+    margin-top: 3rem;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.blogs
+{
+    .blog
+    {
+        .blog-description
         {
             p 
             {
