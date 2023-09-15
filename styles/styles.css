@@ -230,8 +230,8 @@ header {
 
 .home-page-information .grid-left-home .user-image {
   background-color: var(--black);
-  margin-left: 8rem;
-  height: 60%;
+  margin-left: 12rem;
+  height: 80%;
   -webkit-transition: var(--transitions);
   transition: var(--transitions);
   border-radius: var(--br-sm-2);
