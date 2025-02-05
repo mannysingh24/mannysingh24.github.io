@@ -231,11 +231,11 @@ header {
 .home-page-information .grid-left-home .user-image {
   background-color: var(--black);
   margin-left: 12rem;
-  height: 80%;
+  height: 87%;
   -webkit-transition: var(--transitions);
   transition: var(--transitions);
   border-radius: var(--br-sm-2);
-  width: 50%;
+  width: 65%;
 }
 
 .home-page-information .grid-left-home .user-image img {
